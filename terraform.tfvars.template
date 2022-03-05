@@ -1,0 +1,4 @@
+do_token = "<YOUR DIGITAL OCEAN TOKEN CONFIGURED AT STEP 2. Digital Ocean API Personal Token/Keys from the tutorial>"
+ssh_fingerprint = "<YOUR SSH FINGERPRINT AS YOU SEE IN STEP 3. An SSH Key configured>"
+cloudflare_api_token = "<YOUR CLOUDFLARE ACCOUNT API token>"
+cloudflare_zone_id = "<YOUR CLOUDFLARE ZONE ID>"
