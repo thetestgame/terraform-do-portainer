@@ -1,7 +1,7 @@
 
 
 data "template_file" "compose-file" {
-  template = "${var.use_letsencrypt == "true" ? file("${path.module}/files/docker-compose-letsencrypt.yml") : file("${path.module}/files/docker-compose.yml")}"
+  template = "${var.use_letsencrypt == "true" ? file("${path.module}/compose/docker-compose-letsencrypt.yml") : file("${path.module}/compose/docker-compose.yml")}"
 
   vars = {
     portainer_version    = "${var.portainer_version}"
